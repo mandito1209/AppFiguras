@@ -9,7 +9,7 @@ public class Deck {
      */
     public Deck()
     {
-        // initialise instance variables
+        // Inicializar variables
         deck=new ArrayList(52);
         for(int i=1;i<14;i++){
             Card carta=new Card(i,'♦');
